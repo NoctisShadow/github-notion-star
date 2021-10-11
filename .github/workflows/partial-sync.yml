@@ -1,8 +1,9 @@
 name: Partial Sync Notion Star
 
 on:
-  schedule:
+ schedule:
     - cron: '0 */2 * * *'
+    
 jobs:
   partial-sync:
     runs-on: ubuntu-latest
